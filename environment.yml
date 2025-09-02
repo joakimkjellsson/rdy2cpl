@@ -21,5 +21,6 @@ dependencies:
     # Install mpi4py from source (sdist at PyPI), this makes sure it is build
     # against system MPI
     - mpi4py
+    - --no-binary=mpi4py 
     # eccodes from PyPI delivers the Python bindings
     - eccodes
